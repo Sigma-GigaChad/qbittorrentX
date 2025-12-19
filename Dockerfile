@@ -1,4 +1,4 @@
-FROM linuxserver/qbittorrent
+FROM linuxserver/qbittorrent:5.1.4
 WORKDIR /app
 RUN apk add --no-cache wget unzip && \
     wget https://github.com/WDaan/VueTorrent/releases/latest/download/vuetorrent.zip && \
